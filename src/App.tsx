@@ -1,4 +1,5 @@
 import "./App.css";
+import MuiAutocomplete from "./components/MuiAutocomplete";
 import { MuiRating } from "./components/MuiRating";
 // import { MuiCheckBox } from './components/MuiCheckBox';
 // import { MuiSwitch } from './components/MuiSwitch';
@@ -18,7 +19,8 @@ function App() {
       {/* <MuiRadioButton/> */}
       {/* <MuiCheckBox/> */}
       {/* <MuiSwitch/> */}
-      <MuiRating />
+      {/* <MuiRating /> */}
+      <MuiAutocomplete/>
     </div>
   );
 }
